@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>25 + 5 Clock</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <div>
+            <div>
+                <h3 id="break-label">Break Length</h3>
+                <div class="btn-container">
+                    <button id="break-increment" class="increment">
+                        <i class="fa-solid fa-angle-up"></i>
+                    </button>
+                    <span id="break-length">5</span>
+                    <button id="break-decrement" class="decrement">
+                        <i class="fa-solid fa-angle-down"></i>
+                    </button>
+                </div>
+            </div>
+            <div>
+                <h3 id="session-label">Session Length</h3>
+                <div class="btn-container">
+                    <button id="session-increment" class="increment">
+                        <i class="fa-solid fa-angle-up"></i>
+                    </button>
+                    <span id="session-length">25</span>
+                    <button id="session-decrement" class="decrement">
+                        <i class="fa-solid fa-angle-down"></i>
+                    </button>
+                </div>
+            </div>
+            <div>
+                <h3 id="timer-label">Session</h3>
+                <span id="time-left">00:00</span>
+                <div class="btn-container">
+                    <button id="start_stop">
+                        <i class="fa-solid fa-play"></i>
+                    </button>
+                    <button id="reset">
+                        <i class="fa-solid fa-arrows-rotate"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <audio src="https://actions.google.com/sounds/v1/alarms/alarm_clock.ogg" id="beep"></audio>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://kit.fontawesome.com/bfb814df9c.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>

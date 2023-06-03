@@ -1,0 +1,78 @@
+:root {
+    --imperial-red: #F03A47;
+    --redwood: #AF5B5B;
+    --white-smoke: #F6F4F3;
+    --celtic-blue: #276FBF;
+    --delft-blue: #183059;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Pathway Extreme', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--celtic-blue);
+}
+
+.container > div {
+    width: 400px;
+    padding: 1rem;
+    background-color: var(--white-smoke);
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px black;
+}
+
+.container > div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    padding: 1rem;
+    color: var(--delft-blue);
+}
+
+span {
+    color: var(--imperial-red);
+    font-size: 2rem;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+button {
+    padding: 1rem;
+    margin: 0 1rem;
+    border: 2px solid var(--celtic-blue);
+    border-radius: 5px;
+    color: var(--celtic-blue);
+    background-color: var(--white-smoke);
+    cursor: pointer;
+    box-shadow: 1px 1px;
+    transition:0s 0.2s;
+}
+
+button:active {
+    border: 2px solid var(--imperial-red);
+    color: var(--imperial-red);
+    box-shadow: none;
+    transition:0s;
+}
