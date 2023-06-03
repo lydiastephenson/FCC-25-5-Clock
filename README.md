@@ -2,6 +2,8 @@
 
 Objective: Build an app that is functionally similar to this: <https://25--5-clock.freecodecamp.rocks>.
 
+Final Project: <https://fcc-25-5-clock--lydia-stephenson.repl.co/>
+
 Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
 
 1. I can see an element with id="break-label" that contains a string (e.g. "Break Length").
